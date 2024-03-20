@@ -1,11 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Princess Sofia';
+}
+:root{
+    --primary: #22643B;
+    --secondary: #0E1E1580;
+    --tertiary: #162D1F;
+    --black: #00000080;
+    --White: #ffffff;
+}
+
 body{
-    background-color: #22643B;
+    min-height: 100vh;
+    background-color: var(--primary);
 }
 
-section{
-    background-color: rgba(14, 30, 21, 0.6)
+header{
+    display: flex;
+    background-color: #00000080;
+    justify-content: space-between;
+    border-bottom: var(--tertiary);
+    border-bottom-width: 0.5rem;
+    border-bottom-style: solid;
+    height: 4rem;
 }
 
-p{
-    color: white;
+header img.logo{
+    padding: 0.1rem;
+}
+
+header section img{
+    height: 3rem;
+    margin-top: 100px;
+    margin: 0 0.1rem;
+
+}
+
+header nav{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+}
+
+header nav a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: var(--White);
+}
+
+header nav a:hover{
+    font-weight: bold;
+}
+
+main div{
+    background-color: var(--secondary);
+    margin-left: 100px;
+    margin-top: 90px;
+    margin-right: 100px;
+}
+
+main div p{
+    color: var(--White)
 }
