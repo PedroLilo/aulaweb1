@@ -40,9 +40,6 @@ header img.logo{
 
 header section img{
     height: 3rem;
-    margin-top: 100px;
-    margin: 0 0.1rem;
-
 }
 
 header nav{
@@ -69,10 +66,18 @@ main nav{
     height: 800px;
 }
 
+main nav section p{
+    color: var(--White);
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 main nav section{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin: 200px;
 
 }
