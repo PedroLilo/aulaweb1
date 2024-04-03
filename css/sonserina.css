@@ -6,22 +6,20 @@
     outline: 0;
     font-family: 'Princess Sofia';
 }
-:root {
-    --primary: #341307;
-    --secondary: #603A2C;
+:root{
+    --primary: #22643B;
+    --secondary: #0E1E1580;
+    --tertiary: #162D1F;
     --black: #00000080;
     --White: #ffffff;
-    --backgroud_color: rgba(0, 0, 0, 0.4)
 }
 
-body {
+body{
     min-height: 100vh;
-    background-image: url("./Img/comunal.jpg") ;
+    background-image: url("../Img/degrade.jpg") ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 120% 120%;
-    background-color: var(--backgroud_color);
-
 }
 
 header {
@@ -40,6 +38,9 @@ header img.logo{
 
 header section img{
     height: 3rem;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
 }
 
 header nav{
@@ -59,25 +60,26 @@ header nav a:hover{
     font-weight: bold;
 }
 
-main nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 800px;
+main div{
+    background-color: var(--secondary);
+    margin-left: 100px;
+    margin-top: 90px;
+    margin-right: 100px;
 }
 
-main nav section p{
+main div p{
     color: var(--White);
-    font-size: 200%;
+    font-size: 100%;
+}
+
+main div section{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main nav section{
+main div div section{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 200px;
-
+    justify-content: right;
+    align-items: center;
 }
