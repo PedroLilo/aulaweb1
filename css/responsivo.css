@@ -1,35 +1,12 @@
-@media (max-width:800px) {
-    main.index {
-        display: grid;
-        grid-template-columns: auto auto auto;
-    }
-}
-
 @media (max-width:1180px) {
     main nav img.Chapeu{
         display: none;
+    }
+}
+
+@media (max-width:800px) {
+    main nav section {
+        display: grid;
         grid-template-columns: auto auto;
-    }
-}
-
-@media (max-width:740px) {
-    main nav img{
-        display: grid;
-        grid-template-columns: auto;
-    }
-}
-
-@media (max-width:400px) {
-    main.index {
-        display: grid;
-        grid-template-columns: auto;
-    }
-
-    main.index section {
-        flex-direction: column;
-    }
-
-    main.index section img {
-        width: 100%;
     }
 }
