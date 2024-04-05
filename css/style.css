@@ -11,9 +11,6 @@
     --secondary: #603A2C;
     --black: #00000080;
     --White: #ffffff;
-    --green: #22643B;
-    --grey: #0E1E1580;
-    --darkgreen: #162D1F;
 }
 
 body {
@@ -27,7 +24,7 @@ body {
 
 header {
     display: flex;
-    background-color: #00000080;
+    background-color: var(--black);
     justify-content: space-between;
     border-bottom: var(--black);
     border-bottom-width: 0.5rem;
@@ -48,8 +45,8 @@ header section img{
 
 header nav{
     width: 70%;
-    display: flex;
     align-items: center;
+    justify-content: left;
     font-size: xx-large;
 }
 
@@ -63,12 +60,23 @@ header nav a:hover{
     font-weight: bold;
 }
 
+main {
+    grid-template-columns: auto auto auto;
+}
+
+main img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
 main nav{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 800px;
 }
+
 
 main nav section p{
     color: var(--White);

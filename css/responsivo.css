@@ -1,19 +1,26 @@
 @media (max-width:800px) {
-    main.comentario {
+    main.index {
         display: grid;
         grid-template-columns: auto auto auto;
     }
 }
 
-@media (max-width:500px) {
-    main.comentario {
-        display: grid;
+@media (max-width:1180px) {
+    main nav img.Chapeu{
+        display: none;
         grid-template-columns: auto auto;
     }
 }
 
+@media (max-width:740px) {
+    main nav img{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
 @media (max-width:400px) {
-    main.comentario {
+    main.index {
         display: grid;
         grid-template-columns: auto;
     }

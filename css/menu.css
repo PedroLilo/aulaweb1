@@ -11,6 +11,10 @@ header input#menu-abre {
         display: none;
     }
 
+    header section {
+        display: none;
+    }
+    
     header nav label[for='menu-abre'] {
         display: flex;
         justify-content: center;
