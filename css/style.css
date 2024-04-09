@@ -44,7 +44,7 @@ header section img{
 }
 
 header nav{
-    width: 70%;
+    width: 100%;
     align-items: center;
     justify-content: left;
     font-size: xx-large;
@@ -56,17 +56,13 @@ header nav a{
     color: var(--White);
 }
 
+
 header nav a:hover{
     font-weight: bold;
 }
 
-main {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 0.5rem;
-    align-content: baseline;
-    padding: 0.5rem;
-
+header section{
+    display: flex;
 }
 
 main img {

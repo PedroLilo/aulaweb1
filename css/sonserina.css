@@ -21,10 +21,9 @@ body{
     background-position: center;
     background-size: 120% 120%;
 }
-
 header {
     display: flex;
-    background-color: #00000080;
+    background-color: var(--black);
     justify-content: space-between;
     border-bottom: var(--black);
     border-bottom-width: 0.5rem;
@@ -44,9 +43,9 @@ header section img{
 }
 
 header nav{
-    width: 70%;
-    display: flex;
+    width: 100%;
     align-items: center;
+    justify-content: left;
     font-size: xx-large;
 }
 
@@ -56,15 +55,28 @@ header nav a{
     color: var(--White);
 }
 
+
 header nav a:hover{
     font-weight: bold;
 }
 
-main div{
+header section{
+    display: flex;
+}
+
+header nav a:hover{
+    font-weight: bold;
+}
+
+main{
+    flex-direction: row;
+}
+
+main div.meio{
     background-color: var(--secondary);
-    margin-left: 100px;
-    margin-top: 90px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-right: 200px;
 }
 
 main div p{
@@ -78,8 +90,28 @@ main div section{
     align-items: center;
 }
 
-main div div section{
+.textoson{
     display: flex;
-    justify-content: right;
+    flex-direction: row;
+}
+.textoson p.textmeio{
+    font-size: 2.5rem;
+}
+
+.textoson section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    border-left: 1px solid white;
+    font-size: 2.5rem;
+}
+
+.tituloson{
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    padding-bottom: 2rem;
 }
